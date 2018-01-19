@@ -111,5 +111,5 @@
           flex: 1 1 33%;
       margin-bottom: 1px; } }
 	  
-	  body.is-reveal-open {overflow: auto !important; height: auto; position: relative;}
+	  body.is-reveal-open {overflow: auto !important; height: auto; position: absolute;}
 .reveal-overlay {overflow: initial !important; position: absolute;}
