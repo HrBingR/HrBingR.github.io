@@ -78,3 +78,29 @@
     .reveal {
       height: auto !important;
       min-height: 0 !important; } }
+	  
+	  .justifyp
+	  {
+		  text-align:justify;
+	  }
+	  
+	  .smallp
+	  {
+		  font-size:80%;
+	  }
+	  
+	  .modalh4
+	  {
+		  text-align:center;
+		  background-color:#2979FF;
+		  color:#FFF;
+	  }
+	  
+	  .button.blue
+	  {
+		  background-color:#2979FF !important;
+	  }
+	  .close-button.white
+	  {
+		  color:#FFF;
+	  }
