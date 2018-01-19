@@ -73,6 +73,7 @@
 	.reveal {
 		border:0 !important;
 		border-radius:0 !important;
+		overflow:visible !important;
 	}
 	  @media screen and (max-width: 39.9375em) {
     .reveal {
