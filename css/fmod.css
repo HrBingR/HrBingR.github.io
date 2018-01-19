@@ -119,3 +119,7 @@
 			.slide-out-up {
 				display:none;
 			}}
+			
+			body.is-reveal-open {
+				overflow:visible !important;
+			}
