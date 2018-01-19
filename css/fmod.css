@@ -77,8 +77,7 @@
 	  @media screen and (max-width: 39.9375em) {
     .reveal {
       height: auto !important;
-      min-height: 0 !important;
-	  position:fixed; } }
+      min-height: 0 !important; } }
 	  
 	  .justifyp
 	  {
@@ -111,3 +110,6 @@
       -ms-flex: 1 1 33%;
           flex: 1 1 33%;
       margin-bottom: 1px; } }
+	  
+	  body.is-reveal-open {overflow: auto !important; height: auto; position: relative;}
+.reveal-overlay {overflow: initial !important; position: absolute;}
