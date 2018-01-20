@@ -1,40 +1,39 @@
 @charset "UTF-8";
-.align-center 
-{
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+.align-center {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
-
 .tabs-title {
-  float: none !important;
-  display:inline-block;
-  margin-right: -5px;
-  /*min-width: 140px;*/ }
-  .tabs-title > a {
-    display: block;
-    padding: 1.25rem 1.5rem;
-    font-size: 0.9rem;
-    line-height: 1;
-    color: #FFF; }
-    .tabs-title > a:hover {
-      background: #FFF;
-      color: #2979FF; }
-    .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
-      background: #FFF;
-      color: #2979FF;
-	  outline: 0; 
-	  }
-
+	float: none !important;
+	display: inline-block;
+	margin-right: -5px;
+/*min-width: 140px;*/ }
+.tabs-title > a {
+	display: block;
+	padding: 1.25rem 1.5rem;
+	font-size: 0.9rem;
+	line-height: 1;
+	color: #FFF;
+}
+.tabs-title > a:hover {
+	background: #FFF;
+	color: #2979FF;
+}
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+	background: #FFF;
+	color: #2979FF;
+	outline: 0;
+}
 .tabs {
-    margin: 0;
-    border-style: solid;
+	margin: 0;
+	border-style: solid;
 	border-color: #fff;
 	border-width: 1px 0px 0px 0px;
-    background: #2979FF;
-    list-style-type: none;
-	text-align:center;
+	background: #2979FF;
+	list-style-type: none;
+	text-align: center;
 }
 /*.tabs-content {
 	max-width:1200px;
@@ -42,84 +41,86 @@
 }*/
 
 .accordion-title {
-  position: relative;
-  display: block;
-  padding: 1.25rem 1rem;
-  border: 0;
-  border-bottom: 0;
-  font-size: 0.75rem;
-  line-height: 1;
-  color: #FFF;
-  background-color: #2979FF; }
-  .accordion-title > a {
-	  color: #FFF; }
-  :last-child:not(.is-active) > .accordion-title {
-    border-bottom: 0;
-    border-radius: 0; 
+	position: relative;
+	display: block;
+	padding: 1.25rem 1rem;
+	border: 0;
+	border-bottom: 0;
+	font-size: 0.75rem;
+	line-height: 1;
+	color: #FFF;
+	background-color: #2979FF;
+}
+.accordion-title > a {
+	color: #FFF;
+}
+:last-child:not(.is-active) > .accordion-title {
+	border-bottom: 0;
+	border-radius: 0;
 	/*background-color: #FFF;
 	color: #2979FF;*/
 	outline: 0;
-	}
-  .accordion-title:hover, .accordion-title:focus {
-    background-color: #FFF !important;
+}
+.accordion-title:hover, .accordion-title:focus {
+	background-color: #FFF !important;
 	color: #2979FF !important;
-	outline: 0; }
-	
-	button {
-  border-radius: 0px !important; }
-   .button-group .button {
-    margin-right: 1px !important; }
-	
-	.reveal {
-		border:0 !important;
-		border-radius:0 !important;
-		overflow:visible !important;
-	}
-	  @media screen and (max-width: 39.9375em) {
-    .reveal {
-      height: auto !important;
-      min-height: 0 !important; } }
-	  
-	  .justifyp
-	  {
-		  text-align:justify;
-	  }
-	  
-	  .smallp
-	  {
-		  font-size:80%;
-	  }
-	  
-	  .modalh4
-	  {
-		  text-align:center;
-		  background-color:#2979FF;
-		  color:#FFF;
-	  }
-	  
-	  .button.blue
-	  {
-		  background-color:#2979FF !important;
-	  }
-	  .close-button.white
-	  {
-		  color:#FFF;
-	  }
-	  
-	    @media print, screen and (min-width: 40em) {
-    .button-group.stacked-for-small .button {
-      -ms-flex: 1 1 33%;
-          flex: 1 1 33%;
-      margin-bottom: 1px; } }
-	  
-	  	  @media screen and (max-width: 39.9375em) {
-			  .slide-in-down {
-				  display:none;
-			  }
-			.slide-out-up {
-				display:none;
-			}}
-			
-			body.is-reveal-open {
-				overflow:visible !important;
-			}
+	outline: 0;
+}
+button {
+	border-radius: 0px !important;
+}
+.button-group .button {
+	margin-right: 1px !important;
+}
+.reveal {
+	border: 0 !important;
+	border-radius: 0 !important;
+	overflow: visible !important;
+}
+
+@media screen and (max-width: 39.9375em) {
+.reveal {
+	height: auto !important;
+	min-height: 0 !important;
+}
+}
+.justifyp {
+	text-align: justify;
+}
+.smallp {
+	font-size: 80%;
+}
+.modalh4 {
+	text-align: center;
+	background-color: #2979FF;
+	color: #FFF;
+}
+.button.blue {
+	background-color: #2979FF !important;
+}
+.close-button.white {
+	color: #FFF;
+}
+
+@media print, screen and (min-width: 40em) {
+.button-group.stacked-for-small .button {
+	-ms-flex: 1 1 33%;
+	flex: 1 1 33%;
+	margin-bottom: 1px;
+}
+}
+
+@media screen and (max-width: 39.9375em) {
+.slide-in-down {
+	display: none;
+}
+.slide-out-up {
+	display: none;
+}
+}
+body.is-reveal-open {
+	overflow: visible !important;
+}
+h6 {
+	font-weight: bold;
+}
