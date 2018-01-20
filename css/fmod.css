@@ -124,3 +124,18 @@ body.is-reveal-open {
 h6 {
 	font-weight: bold;
 }
+
+/*@media screen and (max-width: 39.9375em) {*/
+.logo
+{
+	width:auto;
+	height:30vh;
+	max-height:250px;
+} /*}
+@media screen and (min-width: 40em) {
+.logo
+{
+	width:auto;
+	height:30vh;
+	max-height:250px;
+} }*/
