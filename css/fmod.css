@@ -139,3 +139,8 @@ h6 {
 	height:30vh;
 	max-height:250px;
 } }*/
+
+.accordion-item:first-child > :first-child
+{
+	border-radius: 0 !important;
+}
